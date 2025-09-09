@@ -1,9 +1,9 @@
 static constexpr int SOUND_VOLUME = 1;
-static constexpr unsigned long RUN_TIME = 1000 * 60;
+static constexpr unsigned long RUN_TIME = 1000 * 600;
 static constexpr unsigned long MOTOR_CONTROL_INTERVAL = 1000;
-static constexpr unsigned long MOTOR_ON_TIME_SLOW = 20;
-static constexpr unsigned long MOTOR_ON_TIME_FAST = 100;
-static constexpr int HIT_COUNT_THRESHOLD = 3;
+static constexpr unsigned long MOTOR_ON_TIME_SLOW = 30;
+static constexpr unsigned long MOTOR_ON_TIME_FAST = 60;
+static constexpr int HIT_COUNT_THRESHOLD = 5;
 
 static constexpr uint8_t POWER_PIN = D2;
 static constexpr uint8_t HIT_PIN = D1;
